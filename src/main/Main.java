@@ -4,6 +4,7 @@
 package main;
 
 import lambda.LambdaMain;
+import stream.StreamMain;
 
 /**
  * @author stykky
@@ -23,6 +24,7 @@ public class Main {
 		System.out.println("made by: cristianstocco");
 		System.out.println("provided by: geeks for geeks");
 		new LambdaMain().execute();
+		new StreamMain().execute();
 	}
 
 }
