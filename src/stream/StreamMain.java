@@ -20,10 +20,15 @@ public class StreamMain {
 	 * PUBLIC METHODS
 	 */
 	public void execute() {
+		System.out.println();
+		System.out.println("StreamMain execution...");
+		
 		executeSum();
 		executeMax();
 		executeAverage();
 		executeMaxOfOdd();
+		
+		System.out.println();
 	}
 	
 	/*

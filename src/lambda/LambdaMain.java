@@ -20,9 +20,14 @@ public class LambdaMain {
 	 * PUBLIC METHODS
 	 */
 	public void execute() {
+		System.out.println();
+		System.out.println("LambdaMain execution...");
+		
 		executeLambdaHelloWorld();
 		executeLambdaMapper();
 		executeLambdaSum();
+		
+		System.out.println();
 	}
 	
 	/*
