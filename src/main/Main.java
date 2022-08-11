@@ -5,6 +5,7 @@ package main;
 
 import arraylist.ArrayListMain;
 import lambda.LambdaMain;
+import linkedlist.LinkedListMain;
 import stream.StreamMain;
 
 /**
@@ -27,6 +28,7 @@ public class Main {
 		new LambdaMain().execute();
 		new StreamMain().execute();
 		new ArrayListMain().execute();
+		new LinkedListMain().execute();
 	}
 
 }
