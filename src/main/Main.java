@@ -3,6 +3,7 @@
  */
 package main;
 
+import arraylist.ArrayListMain;
 import lambda.LambdaMain;
 import stream.StreamMain;
 
@@ -25,6 +26,7 @@ public class Main {
 		System.out.println("provided by: geeks for geeks");
 		new LambdaMain().execute();
 		new StreamMain().execute();
+		new ArrayListMain().execute();
 	}
 
 }
