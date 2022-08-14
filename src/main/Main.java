@@ -6,6 +6,7 @@ package main;
 import arraylist.ArrayListMain;
 import lambda.LambdaMain;
 import linkedlist.LinkedListMain;
+import queue.QueueMain;
 import stack.StackMain;
 import stream.StreamMain;
 
@@ -31,6 +32,7 @@ public class Main {
 		new ArrayListMain().execute();
 		new LinkedListMain().execute();
 		new StackMain().execute();
+		new QueueMain().execute();
 	}
 
 }
